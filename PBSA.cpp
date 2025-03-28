@@ -12,7 +12,7 @@ int main(int argc, char*argv[]) {
     int numHilos = atoi(argv[1]);  /*Número de hilos a usar*/
 
     for(int i = 0; i < SIZE; i++){
-        arr[i] = rand() % 0;
+        arr[i] = rand() % 100;
     }
     ordenar(arr);
     for(int i = 0; i < SIZE; i++){
